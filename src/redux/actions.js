@@ -12,4 +12,11 @@ export const searchFilterChange = (text) => {
   };
 };
 
+export const statusFilterChange = (text) => {
+  return {
+    type: "filters/statusFilterChange",
+    payload: text,
+  };
+};
+
 // action creators => function
